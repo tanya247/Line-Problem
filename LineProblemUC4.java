@@ -31,13 +31,13 @@ public class LineProblemUC4 {
 		String length2= String.valueOf(len2);
 		Equals e = new Equals();
 		Compares c = new Compares();
-		e.Equalsto(length1, length2);
-		c.ComparesTo(length1, length2);
+		e.equalsTo(length1, length2);
+		c.comparesTo(length1, length2);
 	}
 }
 
 class Equals{
-    void Equalsto(String l1, String l2){
+    void equalsTo(String l1, String l2){
         if(l1.equals(l2)){
     		System.out.println("Lines are equal!");
     	}
@@ -47,7 +47,7 @@ class Equals{
     }
 }
 class Compares{
-    void ComparesTo(String l1, String l2){
+    void comparesTo(String l1, String l2){
         if(l1.compareTo(l2)==0){
     		System.out.println("Lines are equal!");
     	}
